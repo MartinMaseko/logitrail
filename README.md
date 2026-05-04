@@ -1,11 +1,51 @@
-# React + TypeScript + Vite
+# LogiTrail — Logistics Service Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Marketing and contact landing page for **LogiTrail**, a logistics and freight company based in Gauteng, South Africa.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React 18 + TypeScript
+- Vite
+- Plain CSS (custom properties, CSS nesting, `clamp()`)
+
+## Getting Started
+
+```bash
+npm install
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+## Project Structure
+
+```
+src/
+  App.tsx          # Page sections and layout
+  App.css          # All section styles and animations
+  index.css        # CSS variables and global base styles
+  components/
+    Navbar.tsx     # Fixed navbar with mobile slide-in panel
+    Navbar.css
+  assets/          # Images and logo
+```
+
+## Features
+
+- Full-height hero banner with blur-in load animations
+- Sticky navbar with mobile hamburger menu
+- Scroll-triggered stagger animations (services, contact links)
+- Responsive at 1024px and 560px breakpoints
+- SEO meta tags, Open Graph, and geo-targeting for Gauteng
+
+## Contact
+
+**Phone:** +27 68 697 2815  
+**Email:** info@logitrail.co.za
 
 ## React Compiler
 
