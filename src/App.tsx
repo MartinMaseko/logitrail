@@ -1,8 +1,9 @@
 import { useEffect, useRef, useState } from 'react'
 import './App.css'
 import Navbar from './components/Navbar'
-import bannerImage from './assets/banner.png'
+import bannerImage from './assets/siteBackground.jpg'
 import mapBanner from './assets/mapbanner.jpg'
+import backgroundTwo from './assets/backgroundTwo.jpg'
 
 
 function App() {
@@ -106,7 +107,7 @@ function App() {
           </h1>
           <p className="mission">
             At LogiTrail, we deliver smart, dependable logistics solutions built around
-            your business. From local routes to cross-border freight, we move your goods
+            your needs. From local routes to cross-border freight, we move your goods
             safely, on time, and cost-effectively — so you can focus on what matters most:
             growing your business.
           </p>
@@ -153,9 +154,15 @@ function App() {
             focus on operational excellence and customer satisfaction, we simplify your
             supply chain so you can concentrate on running your business with confidence.
           </p>
+          <p>Our offering spans:</p>
+          <ul className="about-services-list">
+            <li><strong>Freight Transportation</strong></li>
+            <li><strong>Distribution</strong></li>
+            <li><strong>Customs Clearance Support</strong></li>
+            <li><strong>Cross-Border Logistics Coordination</strong> between South Africa and neighbouring countries</li>
+          </ul>
+          <img src={backgroundTwo} alt="Cross-border logistics operations" className="about-bg-two" />
           <p>
-            Our offering spans freight transportation, distribution, customs clearance support,
-            and cross-border logistics coordination between South Africa and neighbouring countries.
             From commercial cargo and retail goods to construction materials and general freight,
             every load is managed with precision, care, and full accountability.
           </p>
