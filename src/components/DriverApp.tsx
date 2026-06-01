@@ -15,7 +15,7 @@ interface Shipment {
 export default function DriverApp() {
   const [currentScreen, setCurrentScreen] = useState<'home' | 'shipment' | 'tracking'>('home')
   const [selectedShipment, setSelectedShipment] = useState<Shipment | null>(null)
-  const [gpsActive, setGpsActive] = useState(true)
+  const gpsActive = true
 
   const shipments: Shipment[] = [
     {
