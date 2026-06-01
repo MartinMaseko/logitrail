@@ -3,9 +3,6 @@
   publish = "dist"
   node_version = "20"
 
-[build.environment]
-  NODE_ENV = "production"
-
 # SPA fallback — must come last
 [[redirects]]
   from = "/*"
