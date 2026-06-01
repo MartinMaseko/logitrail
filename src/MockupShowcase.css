@@ -1,0 +1,178 @@
+.mockup-showcase {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #2d5016 0%, #1a3a0a 100%);
+}
+
+/* Navigation */
+.mockup-nav {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 64px;
+  background: rgba(20, 30, 22, 0.95);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(212, 175, 55, 0.35);
+}
+
+.mockup-nav-brand {
+  display: inline-flex;
+  align-items: center;
+}
+
+.mockup-nav-logo {
+  height: 45px;
+  width: auto;
+  display: block;
+}
+
+.mockup-nav-buttons {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+}
+
+.mockup-nav-btn {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid transparent;
+  color: rgba(240, 235, 220, 0.85);
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  padding: 8px 4px;
+  cursor: pointer;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.mockup-nav-btn:hover {
+  color: #d4af37;
+}
+
+.mockup-nav-btn.active {
+  color: #d4af37;
+  border-bottom-color: #d4af37;
+}
+
+/* Screen Container */
+.screen-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  overflow: auto;
+}
+
+.screen-container > * {
+  flex: 1;
+  min-height: 0;
+}
+
+/* Footer */
+.mockup-footer {
+  background: white;
+  padding: 12px 24px;
+  border-top: 2px solid #d4af37;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-content h3 {
+  color: #2d5016;
+  margin: 0 0 4px;
+  font-size: 13px;
+}
+
+.footer-content p {
+  color: #666;
+  margin: 0 0 8px;
+  font-size: 11px;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  font-weight: 600;
+  font-size: 11px;
+  color: #2d5016;
+}
+
+.features span {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .mockup-nav {
+    padding: 10px 24px;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .mockup-nav-buttons {
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .mockup-nav {
+    padding: 10px 16px;
+  }
+
+  .mockup-nav-logo {
+    height: 36px;
+  }
+
+  .mockup-nav-buttons {
+    gap: 14px;
+  }
+
+  .mockup-nav-btn {
+    font-size: 12px;
+  }
+
+  .features {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .footer-content h3 {
+    font-size: 12px;
+  }
+
+  .footer-content p {
+    font-size: 11px;
+  }
+}
+
+/* Animation */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.screen-container > * {
+  animation: slideIn 0.25s ease-out;
+}

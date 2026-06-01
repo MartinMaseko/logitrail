@@ -1,0 +1,152 @@
+================================================================================
+                            PROFESSIONAL INVOICE
+================================================================================
+
+INVOICE TO:
+LogiTrail Logistics Services
+Johannesburg, Gauteng, South Africa
+
+INVOICE NUMBER: LT-2026-001
+INVOICE DATE: 01 June 2026
+DUE DATE: 15 July 2026
+
+FROM:
+Development Services
+Web & Mobile Solutions
+Johannesburg, Gauteng, South Africa
+
+================================================================================
+PROJECT DESCRIPTION: LogiTrail Driver Tracking & Delivery Management PWA
+================================================================================
+
+ITEM DESCRIPTION                               QUANTITY    UNIT PRICE      AMOUNT
+─────────────────────────────────────────────────────────────────────────────
+
+1. Requirements Analysis & Project Planning        1      R 4,500.00    R 4,500.00
+   - Client consultation, scope definition
+   - Database architecture design
+   - Feature prioritization for MVP
+
+2. Driver Mobile PWA Application Development       1      R 18,000.00   R 18,000.00
+   - Responsive PWA (iOS/Android compatible)
+   - Real-time GPS tracking integration
+   - Check-in/Check-out functionality
+   - Offline mode capability
+   - Photo capture integration
+   - Push notifications setup
+
+3. Admin Dashboard Development                     1      R 14,500.00   R 14,500.00
+   - Live driver map visualization
+   - Shipment status tracking interface
+   - User management system
+   - Analytics & reporting views
+   - Responsive design (desktop/tablet)
+
+4. Barcode System Implementation                   1      R 8,000.00    R 8,000.00
+   - Auto barcode generation (collection/delivery)
+   - Barcode scanning integration
+   - Audit trail logging
+   - QR code support
+
+5. Backend API Development                         1      R 12,000.00   R 12,000.00
+   - RESTful API setup
+   - Authentication & authorization
+   - Database schema & management
+   - Real-time updates integration
+   - Security implementation
+
+6. Testing, Deployment & Configuration             1      R 6,000.00    R 6,000.00
+   - Quality assurance testing
+   - Performance optimization
+   - Firebase/Cloud deployment setup
+   - SSL certificate configuration
+   - DNS setup for custom domain
+
+7. Training & Documentation                        1      R 3,500.00    R 3,500.00
+   - End-user training (2 sessions)
+   - Admin training (1 session)
+   - User & technical documentation
+   - Video tutorial creation
+
+8. First 3 Months Support & Maintenance            1      R 2,500.00    R 2,500.00
+   - Bug fixes & minor updates
+   - Performance monitoring
+   - Email support (business hours)
+   - Backup & data recovery support
+
+─────────────────────────────────────────────────────────────────────────────
+
+                                          SUBTOTAL:    R 69,000.00
+
+                              VAT (15%):    R 10,350.00
+
+─────────────────────────────────────────────────────────────────────────────
+                                   TOTAL DUE:    R 79,350.00
+─────────────────────────────────────────────────────────────────────────────
+
+PAYMENT TERMS:
+─────────────────────────────────────────────────────────────────────────────
+• 30% deposit upon project kickoff:              R 23,805.00 (Due: 15 June 2026)
+• 35% on first milestone (30 days):              R 27,772.50 (Due: 01 July 2026)
+• 35% on project completion:                     R 27,772.50 (Due: 31 July 2026)
+
+PAYMENT METHOD:
+Bank Transfer (EFT):
+Bank: [Your Bank Name]
+Account Holder: [Your Name]
+Account Number: [Your Account Number]
+Branch Code: [Your Branch Code]
+Reference: Invoice LT-2026-001
+
+WHAT'S INCLUDED:
+✓ Progressive Web App (PWA) - works on all devices without app store
+✓ Real-time GPS tracking for up to 2 vehicles
+✓ Barcode generation & scanning system
+✓ Cloud hosting for 12 months
+✓ SSL security certificate
+✓ Admin dashboard for management
+✓ Driver mobile application
+✓ Basic analytics & reporting
+✓ Email support (3 months)
+✓ User documentation
+✓ Training sessions
+
+WHAT'S NOT INCLUDED:
+✗ Domain registration (recommended: ~R 150-300/year)
+✗ Monthly hosting after 12 months (est. R 300-500/month)
+✗ Additional customizations beyond scope
+✗ Third-party API integrations (Twilio SMS, etc.)
+✗ Extended support packages
+
+ADDITIONAL NOTES:
+─────────────────────────────────────────────────────────────────────────────
+• Project timeline: 8-10 weeks from project kickoff
+• MVP (Minimum Viable Product) approach to control costs
+• Scalable architecture for future expansion
+• Support available via email and WhatsApp during business hours
+• Future enhancements available at discounted rates
+
+TERMS & CONDITIONS:
+─────────────────────────────────────────────────────────────────────────────
+1. Payment must be received before project commencement
+2. Scope changes after kickoff may incur additional fees
+3. Data backup is the responsibility of the client
+4. Support is limited to identified bugs, not feature requests
+5. Intellectual property rights transfer upon final payment
+6. Project will be placed on hold if payment milestones are missed
+7. Cancellation after commencement: 50% of completed work charged
+
+CONTACT INFORMATION:
+─────────────────────────────────────────────────────────────────────────────
+Email: [Your Email]
+Phone: [Your Phone Number]
+WhatsApp: [Your WhatsApp Number]
+Address: Johannesburg, Gauteng, South Africa
+
+For questions or to proceed with this proposal, please contact us within
+7 business days.
+
+================================================================================
+This is a professional quotation and becomes an invoice upon acceptance and
+deposit payment. Thank you for your business!
+================================================================================
