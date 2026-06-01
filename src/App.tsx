@@ -1,12 +1,14 @@
 import { useEffect, useRef, useState } from 'react'
+import { Routes, Route } from 'react-router-dom'
 import './App.css'
 import Navbar from './components/Navbar'
+import MockupShowcase from './MockupShowcase'
 import bannerImage from './assets/siteBackground.jpg'
 import mapBanner from './assets/mapbanner.jpg'
 import backgroundTwo from './assets/backgroundTwo.jpg'
 
 
-function App() {
+function MainSite() {
   const servicesGridRef = useRef<HTMLDivElement>(null)
   const contactLinksRef = useRef<HTMLDivElement>(null)
 
@@ -93,8 +95,8 @@ function App() {
   return (
     <>
       <Navbar />
-      {/* 1. Hero */}
-      <header id="home">
+        {/* 1. Hero */}
+        <header id="home">
         <img src={bannerImage} alt="" className="hero-image" aria-hidden="true" />
         <div className="hero-overlay" aria-hidden="true" />
         <div className="hero-content">
@@ -303,6 +305,15 @@ function App() {
         </p>
       </footer>
     </>
+  )
+}
+
+function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<MainSite />} />
+      <Route path="/mockup" element={<MockupShowcase />} />
+    </Routes>
   )
 }
 
