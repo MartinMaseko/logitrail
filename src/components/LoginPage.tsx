@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import logo from '../assets/Logo.png'
 import './LoginPage.css'
 
 export default function LoginPage() {
@@ -15,10 +16,7 @@ export default function LoginPage() {
     <div className="login-container">
       <div className="login-card">
         <div className="login-header">
-          <div className="logo-box">
-            <span className="logo-l">L</span>
-          </div>
-          <h1>LogiTrail</h1>
+          <img src={logo} alt="LogiTrail" className="login-logo" />
           <p className="tagline">Logistics Service</p>
         </div>
 
